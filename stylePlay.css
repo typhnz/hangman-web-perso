@@ -1,0 +1,38 @@
+.title{
+    color: #000000;
+}
+
+#homepage{
+    background-color:#b29ddf;
+}
+
+form.form {
+    display: table;
+}
+
+div.form{
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.raise:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
